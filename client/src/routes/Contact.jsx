@@ -1,8 +1,11 @@
+import MainHeader from "../components/HeaderMain"
+
+
 
 function Contact() {
   return (
     <div className="Contact">
-      contact
+      <MainHeader/>
     </div>
   );
 }

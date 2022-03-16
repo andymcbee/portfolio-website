@@ -1,8 +1,11 @@
+import MainHeader from "../components/HeaderMain"
+
+
 
 function About() {
   return (
     <div className="About">
-      about
+      <MainHeader/>
     </div>
   );
 }
