@@ -6,6 +6,7 @@ import Contact from "./routes/Contact"
 import Portfolio from "./routes/Portfolio"
 
 
+
 function App() {
   return (
     <div className="App">
@@ -19,7 +20,9 @@ function App() {
                   </Routes>
               </Router>
         </div>
+     
     </div>
+
   );
 }
 

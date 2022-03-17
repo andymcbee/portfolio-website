@@ -13,7 +13,7 @@ code {
 }
 
 
-a, a:hover, a:focus, a:active {
+a, a:focus, a:active a:visited {
   text-decoration: none;
   color: inherit;
 }
@@ -22,3 +22,16 @@ a {
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
 }
+
+
+a:link { text-decoration: none; }
+
+
+a:hover { 
+    text-decoration: underline; 
+    color: rgb(65, 145, 148);
+}
+
+a:active { 
+    text-decoration: none; }
+

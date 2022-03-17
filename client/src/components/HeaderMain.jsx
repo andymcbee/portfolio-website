@@ -1,19 +1,38 @@
-import { Link } from "react-router-dom";
+
+import React from 'react';
 import "./HeaderMain.css"
+import MenuDesktop from "./MenuDesktop"
+import MenuMobile from "./MenuMobile"
+
+
+
 
 
 
 function HeaderMain() {
+
+
+
+
+
     return (
       <div className="HeaderMain">
 
-        <nav>
-            <ul className="navUl">
-                <li><Link to="/">Portfolio</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-            </ul>
-        </nav>
+
+
+<div className="headerNavContainer">
+  <div>
+      <MenuDesktop /> 
+      <MenuMobile />
+  </div>
+ 
+</div>
+
+
+
+
+
+        
       </div>
     );
   }
