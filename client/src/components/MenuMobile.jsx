@@ -6,6 +6,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 
 
+
 function MenuMobile() {
 
   const [hamburgerOn, setHamburgerOn] = useState(false); //toggles the menu for mobile users

@@ -1,0 +1,61 @@
+
+.PortfolioContainer {
+    margin: 50px;
+}
+
+
+
+  .portfolioGrid {
+    
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+
+  .item-a {
+    padding: 10px;
+    background-color: rgba(219, 247, 215, 0.556);
+    min-height: 250px;
+  }
+
+
+
+  .item-a div {
+    padding: 6px;
+}
+
+
+  h1 {
+      text-align: center;
+  }
+
+
+
+
+
+
+  .buttonFlexContainer {
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+
+
+
+  .techStackFlexContainer{
+      display: flex;
+      justify-content: center;
+  }
+
+
+.techStackItem {
+
+    margin: 20px;
+    width: 50px;
+}
+  .techStackTitle {
+      text-align: center;
+  }
+
+
